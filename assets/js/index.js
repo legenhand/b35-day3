@@ -9,6 +9,11 @@ function submitForm() {
         message: document.getElementById('input-your-message').value,
     };
 
+    if (formObject.name == '' || formObject.email == '' || formObject.phone == '' || formObject.subject == '' || formObject.message == '') {
+        alert('Lengkapi yang kosong....')
+        return
+    }
+
     // console.log(formObject);
 
     let a = document.createElement('a');
