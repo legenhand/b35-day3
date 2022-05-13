@@ -20,7 +20,7 @@ select,
 textarea {
     border: none;
     background-color: rgb(241, 241, 241);
-    padding: 8px 10px;
+    padding: 8px 0px;
     width: 100%;
     border-radius: 6px;
     margin: 10px 0px;
